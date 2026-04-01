@@ -2,8 +2,6 @@
 
 body {
   font-family: Roboto;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   margin: 0px;
 }
@@ -25,7 +23,6 @@ header {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 nav {
@@ -87,10 +84,12 @@ main {
 /* CATALOGUE */
 
 .catalogue-container {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .catalogue-title {
@@ -122,4 +121,23 @@ main {
 
 .catalogue-card-text {
   max-width: 128px;
+}
+
+/* QUOTE */
+
+.quote-container {
+  flex: 1;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.quote-cite {
+  color: #1F2937;
+  font-size: 18px;
+  font-weight: 800;
 }
