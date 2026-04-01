@@ -170,6 +170,7 @@ header nav ul {
   margin: 164px;
   background-color: #3882FA;
   border-radius: 8px;
+  flex-wrap: wrap;
 }
 
 .signup-text {
@@ -187,7 +188,6 @@ header nav ul {
 }
 
 .signup-button {
-  white-space: nowrap;
   font-size: 18px;
   font-weight: 900;
   color: #F9FAF8;
