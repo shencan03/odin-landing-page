@@ -2,8 +2,6 @@
 
 body {
   font-family: Roboto;
-  display: flex;
-  flex-direction: column;
 }
 
 ul {
