@@ -1,0 +1,45 @@
+/* Global decorative atomic elements */
+
+body {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header section with navbar and hero */
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header {
+  background-color: #1F2937;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-image-container {
+  font-size: 18px;
+  color: #E5E7EB;
+  background-color: #F9FAF8;
+}
