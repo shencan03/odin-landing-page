@@ -52,10 +52,15 @@ header nav ul {
 
 .hero-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .hero-title {
@@ -69,10 +74,59 @@ header nav ul {
   color: #E5E7EB;
 }
 
-.hero-image img {
-  width: 100%;
-  max-width: 512px;
-  height: auto;
-  display: block;
-  object-fit: cover;
+.hero-signup {
+  color: #F9FAF8;
+  background-color: #3882F6;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  white-space: nowrap;
+  width: 128px;
+  height: 36px;
 }
+
+/* PLANE */
+.hero-image img {
+  width: 360px;
+  height: auto;
+}
+
+/* Main section with catalogue, quote and signup sections */
+
+.catalogue-container {
+  padding: 36px 108px; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+
+.catalogue-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.catalogue-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+/* DOG */
+.catalogue-card-image img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.catalogue-title {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+{
