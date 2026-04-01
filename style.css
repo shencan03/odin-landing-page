@@ -93,8 +93,10 @@ header nav ul {
 
 /* Main section with catalogue, quote and signup sections */
 
+/* CATALOGUE */
+
 .catalogue-container {
-  padding: 36px 108px; 
+  padding: 36px 108px 64px 108px; 
   text-align: center;
   display: flex;
   justify-content: center;
@@ -129,4 +131,81 @@ header nav ul {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-{
+}
+
+/* QUOTE */
+
+.quote-container {
+  padding: 108px;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-content {
+  max-width: 60%;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  padding-bottom: 36px;
+}
+
+.quote-cite {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* SIGNUP */
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 108px;
+  margin: 164px;
+  background-color: #3882FA;
+  border-radius: 8px;
+}
+
+.signup-text {
+  color: #F9FAF8;
+}
+
+.signup-title{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.signup-subtext {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.signup-button {
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 900;
+  color: #F9FAF8;
+  background-color: #3882FA;
+  border-color: white;
+  border-radius: 8px;
+  width: 128px;
+  height: 36px;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
