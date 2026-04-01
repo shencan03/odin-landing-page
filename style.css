@@ -5,6 +5,10 @@ body {
   margin: 0px;
 }
 
+button {
+  cursor: pointer;
+}
+
 nav ul {
   list-style-type: none;
 }
