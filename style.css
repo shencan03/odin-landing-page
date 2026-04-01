@@ -1,72 +1,55 @@
-/* Global decorative atomic elements */
-
 body {
   font-family: Roboto;
   margin: 0px;
 }
 
-nav ul {
+ul {
   list-style-type: none;
 }
 
-nav a {
+a {
   text-decoration: none;
+}
+
+header a {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-/* Header section with navbar and hero */
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
 
 header {
-  display: flex;
-  flex-direction: column;
   background-color: #1F2937;
-  padding: 18px 108px;
-  gap: 24px;
-}
-
-/* NAVBAR */
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-}
-
-/* CAT */
-header nav img {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-header nav ul {
-  display: flex;
-  padding: 0px;
-  gap: 24px;
-}
-
-/* HERO */
-
-.hero-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-}
-
-.hero-text {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  justify-content: center;
+  align-items: space-between;
+  gap: 96px;
+  padding: 12px 128px 96px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  margin: 0px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero-title {
   font-size: 48px;
-  color: #F9FAF8;
   font-weight: 900;
+  color: #F9FAF8;
 }
 
 .hero-subtext {
@@ -74,138 +57,15 @@ header nav ul {
   color: #E5E7EB;
 }
 
-.hero-signup {
-  color: #F9FAF8;
+.hero-button {
+  color: white;
   background-color: #3882F6;
-  font-size: 18px;
-  border-radius: 8px;
-  border: none;
-  white-space: nowrap;
-  width: 128px;
-  height: 36px;
 }
 
-/* PLANE */
-.hero-image img {
-  width: 360px;
-  height: auto;
-}
-
-/* Main section with catalogue, quote and signup sections */
-
-/* CATALOGUE */
-
-.catalogue-container {
-  padding: 36px 108px 64px 108px; 
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 52px;
-}
-
-.catalogue-cards {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-}
-
-.catalogue-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 18px;
-}
-
-/* DOG */
-.catalogue-card-image img {
-  width: 96px;
-  height: 96px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.catalogue-title {
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 900;
-}
-
-/* QUOTE */
-
-.quote-container {
-  padding: 108px;
-  background-color: #E5E7EB;
+.hero-image {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.quote-content {
-  max-width: 60%;
-}
-
-.quote-text {
-  font-size: 36px;
-  color: #1F2937;
-  font-weight: 300;
-  padding-bottom: 36px;
-}
-
-.quote-cite {
-  display: flex;
-  justify-content: flex-end;
-}
-
-
-/* SIGNUP */
-
-.signup-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 64px 108px;
-  margin: 164px;
-  background-color: #3882FA;
-  border-radius: 8px;
-}
-
-.signup-text {
-  color: #F9FAF8;
-}
-
-.signup-title{
-  font-size: 24px;
-  font-weight: 900;
-}
-
-.signup-subtext {
-  font-size: 18px;
-  font-weight: 300;
-}
-
-.signup-button {
-  white-space: nowrap;
-  font-size: 18px;
-  font-weight: 900;
-  color: #F9FAF8;
-  background-color: #3882FA;
-  border-color: white;
-  border-radius: 8px;
-  width: 128px;
-  height: 36px;
-}
-
-/* Footer section */
-
-footer {
-  background-color: #1F2937;
-  font-size: 18px;
   color: #E5E7EB;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 48px;
+  background-color: #E5E7EB;
 }
