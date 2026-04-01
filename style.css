@@ -4,13 +4,13 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
 }
 
 ul {
   list-style-type: none;
 }
-
-/* Header section with navbar and hero */
 
 nav a {
   text-decoration: none;
@@ -18,13 +18,39 @@ nav a {
   color: #E5E7EB;
 }
 
-.header-logo {
-  font-size: 24px;
-  color: #F9FAF8;
-}
+/* Header section with navbar and hero */
 
 header {
   background-color: #1F2937;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0px;
+  gap: 24px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.hero-text {
+  width: 300px;
 }
 
 .hero-title {
@@ -40,6 +66,14 @@ header {
 
 .hero-image-container {
   font-size: 18px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   color: #E5E7EB;
   background-color: #F9FAF8;
+  padding: 48px;
 }
+
+/* Main section with catalogue, quote and signup sections */
+
+
